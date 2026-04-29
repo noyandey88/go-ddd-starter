@@ -115,6 +115,24 @@ Use this project as a starter for a new Go API by:
 - creating new repository implementations in `repo/`
 - adding handlers and routes under `rest/handlers/`
 
+## Reinitialize with gonew
+
+This starter works well with the `gonew` tool when you want to scaffold a new project from it.
+
+Install `gonew`:
+
+```bash
+go install golang.org/x/tools/cmd/gonew@latest
+```
+
+Basic usage:
+
+```bash
+gonew github.com/noyandey/go-ddd-starter github.com/yourname/newproject
+```
+
+This command copies the starter layout and rewrites module paths so you can begin a fresh project quickly.
+
 ## License
 
 This project is provided as a starter template.
