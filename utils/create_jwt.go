@@ -58,6 +58,8 @@ func VerifyJwt(secret string, tokenString string) (*Claims, error) {
 	return claims, nil
 }
 
+// raw jwt integration
+
 // package utils
 
 // import (
